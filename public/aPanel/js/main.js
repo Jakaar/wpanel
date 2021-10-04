@@ -74157,6 +74157,22 @@ $(document).ready(function () {
 
 /***/ }),
 
+/***/ "./resources/admin_ui/js/custom.js":
+/*!*****************************************!*\
+  !*** ./resources/admin_ui/js/custom.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// import Axios from "axios"
+// $(document).ready(function(){
+//     Axios.post('/lang/kr').then((resp)=> {
+//         console.log(resp);
+//     })
+// })
+
+/***/ }),
+
 /***/ "./resources/admin_ui/js/demo.js":
 /*!***************************************!*\
   !*** ./resources/admin_ui/js/demo.js ***!
@@ -74323,7 +74339,9 @@ __webpack_require__(/*! ./form-components/toggle-switch */ "./resources/admin_ui
 
 __webpack_require__(/*! ./tables */ "./resources/admin_ui/js/tables.js");
 
-__webpack_require__(/*! ./carousel-slider */ "./resources/admin_ui/js/carousel-slider.js"); // // Stylesheets
+__webpack_require__(/*! ./carousel-slider */ "./resources/admin_ui/js/carousel-slider.js");
+
+__webpack_require__(/*! ./custom */ "./resources/admin_ui/js/custom.js"); // // Stylesheets
 
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {

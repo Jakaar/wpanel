@@ -2,6 +2,7 @@
 import $ from 'jquery';
 window.$ = $;
 window.jQuery = $;
+
 import * as bootstrap from 'bootstrap';
 import "moment";
 import "metismenu/dist/metisMenu";
@@ -31,6 +32,7 @@ require('./treeview');
 require('./form-components/toggle-switch');
 require('./tables');
 require('./carousel-slider');
+require('./custom');
 
 // // Stylesheets
 
