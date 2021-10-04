@@ -16,7 +16,7 @@ class SettingsController extends Controller
     public function users()
     {
         $data['users'] = DB::table('users')->get();
-        dd($data);
+//        dd($data);
         return view('admin::settings.users');
     }
 

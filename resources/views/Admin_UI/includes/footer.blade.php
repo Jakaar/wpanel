@@ -371,11 +371,11 @@
                                 </div>
                             </div>
                             {{-- <h6 tabindex="-1" class="dropdown-header"> Popular Languages</h6> --}}
-                            <a href="lang/kr" tabindex="0" class="dropdown-item">
+                            <a href="/lang/kr" tabindex="0" class="dropdown-item">
                                 <span class="me-3 opacity-8 flag large KR"></span>
                                 한국어
                             </a>
-                            <a href="lang/en" tabindex="0" class="dropdown-item">
+                            <a href="/lang/en" tabindex="0" class="dropdown-item">
                                 <span class="me-3 opacity-8 flag large US"></span>
                                 English
                             </a>
