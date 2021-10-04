@@ -6,8 +6,8 @@
             <div class="main-card mb-3 card">
                 <div class="card-body">
                     <h5 class="card-title">Grid Rows</h5>
-                    <form class="" method="post" action="">
-                      <fieldset disabled="disabled">
+                    <form id="ContactUsForm" class="" method="post" action="">
+                      <fieldset disabled="enabled">
                           <div class="row">
                               <div class="col-md-4">
                                   <div class="position-relative mb-3">
@@ -68,7 +68,9 @@
                               </div>
                           </div>
                       </fieldset>
-                        <button class="mt-2 btn btn-primary contactSubmit edit">Submit</button>
+                        <div id="btns">
+                            <button type="button" class="mt-2 btn btn-primary disabler">Edit</button>
+                        </div>
                     </form>
                 </div>
             </div>
