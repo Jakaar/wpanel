@@ -1,5 +1,6 @@
 {
     "title":"제목",
     "settings": "설정",
-    "Choose Language":"언어 선택"
+    "Choose Language":"언어 선택",
+    "validation.required":"필수 정보입니다."
 }

@@ -107,7 +107,7 @@
                                             </div>
                                         </div>
                                         <div class="position-relative form-check mb-3">
-                                            <input name="remember" id="exampleCheck" type="checkbox" class="form-check-input">
+                                            <input name="remember" id="remember" type="checkbox" class="form-check-input">
                                             <label for="exampleCheck" class="form-label form-check-label">Keep me logged in</label>
                                         </div>
                                         <div class="divider row"></div>
