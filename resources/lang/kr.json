@@ -2,5 +2,16 @@
     "title":"제목",
     "settings": "설정",
     "Choose Language":"언어 선택",
-    "validation.required":"필수 정보입니다."
+    "Welcome back":"환영합니다",
+    "Please sign in to your account.":"계정에 로그인하십시오.",
+    "No account?": "계정이 없으십니까?",
+    "Sign up now": "회원가입",
+    "email": "이메일",
+    "Email": "이메일",
+    "Email here": "이메일 주소를 입력해 주십시오",
+    "Password": "비밀번호",
+    "Password here": "비밀번호를 입력해 주십시오",
+    "Keep me logged in": "로그인 상태 유지",
+    "Login": "로그인",
+    "Recover Password": "비밀번호 복구"
 }
