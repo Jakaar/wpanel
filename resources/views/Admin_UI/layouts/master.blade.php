@@ -25,13 +25,13 @@
                 <div class="app-main__outer">
                     <div class="app-main__inner">
                         @include('Admin_UI.includes.titler')
-                        
+                        @yield('contect')
                     </div>
                     @include('Admin_UI.includes.footer')
                 </div>
             </div>
         </div>
-        
+
         <div class="app-drawer-wrapper">
             <div class="drawer-nav-btn">
                 <button type="button" class="hamburger hamburger--elastic is-active">
