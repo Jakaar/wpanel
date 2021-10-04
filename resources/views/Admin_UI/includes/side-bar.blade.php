@@ -37,7 +37,7 @@
                     <li class="app-sidebar__heading">{{__($menus['title'])}}</li>
                     @foreach($menus['menus'] as $mainmenu)
                         <li>
-                            <a href="{{$mainmenu['url']}}" {{ Request::is($mainmenu['url']) ? ' class="active"' : null }}>
+                            <a href="{{$mainmenu['url']}}" {{ Request::is('/users/*') ? ' class="mm-active"' : null }}>
                                 <i class="metismenu-icon {{$mainmenu['icon']}}"></i>
                                 {{__($mainmenu['name'])}}
                             </a>
