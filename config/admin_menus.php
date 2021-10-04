@@ -14,6 +14,7 @@ return [
                 'name'=>'Contact Us',
                 'child' => [],
             ]
-        ]
+        ],
+
     ],
 ];
