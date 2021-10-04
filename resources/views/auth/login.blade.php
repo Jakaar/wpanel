@@ -61,11 +61,11 @@
                             <div class="mx-auto app-login-box col-sm-12 col-md-10 col-lg-9">
                                 <div class="app-logo"></div>
                                 <h4 class="mb-0">
-                                    <span class="d-block">Welcome back,</span>
-                                    <span>Please sign in to your account.</span>
+                                    <span class="d-block">{{ __('Welcome back') }}, </span>
+                                    <span>{{__('Please sign in to your account.')}}</span>
                                 </h4>
-                                <h6 class="mt-3">No account?
-                                    <a href="javascript:void(0);" class="text-primary">Sign up now</a>
+                                <h6 class="mt-3">{{__('No account?') }}
+                                    <a href="javascript:void(0);" class="text-primary">{{__('Sign up now')}}</a>
                                 </h6>
                                 <div class="divider row"></div>
                                 <div>
@@ -74,9 +74,9 @@
                                         <div class="">
                                             <div class="col-md-6">
                                                 <div class="position-relative mb-3">
-                                                    <label for="exampleEmail" class="form-label">Email</label>
+                                                    <label for="exampleEmail" class="form-label">{{__('Email')}}</label>
                                                     <input name="email" id="email"
-                                                        placeholder="Email here..." type="email" class="form-control">
+                                                        placeholder="{{__('Email here')}}" type="email" class="form-control">
                                                                                                                 
                                                 </div>
                                                 @error('email')
@@ -91,9 +91,9 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="position-relative mb-3">
-                                                    <label for="examplePassword" class="form-label">Password</label>
+                                                    <label for="examplePassword" class="form-label">{{__('Password')}}</label>
                                                     <input name="password" id="password"
-                                                        placeholder="Password here..." type="password" class="form-control">
+                                                        placeholder="{{__('Password here')}}" type="password" class="form-control">
                                                 </div>
 
                                                 @error('password')
@@ -108,13 +108,13 @@
                                         </div>
                                         <div class="position-relative form-check mb-3">
                                             <input name="remember" id="exampleCheck" type="checkbox" class="form-check-input">
-                                            <label for="exampleCheck" class="form-label form-check-label">Keep me logged in</label>
+                                            <label for="exampleCheck" class="form-label form-check-label">{{__('Keep me logged in')}}</label>
                                         </div>
                                         <div class="divider row"></div>
                                         <div class="d-flex align-items-center">
                                             <div class="ms-auto">
-                                                <a href="javascript:void(0);" class="btn-lg btn btn-link">Recover Password</a>
-                                                <button class="btn btn-primary btn-lg" type="submit">Login</button>
+                                                <a href="javascript:void(0);" class="btn-lg btn btn-link">{{__('Recover Password')}}</a>
+                                                <button class="btn btn-primary btn-lg" type="submit">{{__('Login')}}</button>
                                             </div>
                                         </div>
                                     </form>
