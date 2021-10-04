@@ -7,4 +7,16 @@ import Axios from "axios"
 // })
 
 
-// user table
+// contact us submit START
+$('.contactSubmit').on('click', ()=>{
+    const data = {
+        title: $('#title').val(),
+        short_content: $('#short_content').val(),
+    }
+    Axios.post('contact_us', data).then((resp)=>{
+        console.log(resp);
+    }).catch((err)=>{
+        alert('errer')
+    })
+})
+// contact us submit END
