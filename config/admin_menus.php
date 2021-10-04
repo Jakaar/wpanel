@@ -4,15 +4,26 @@ return [
         'title'=>'settings',
         'menus'=> [
             [
-                'url'=>'/admin-panel/users',
+                'url'=>'users',
                 'icon'=>'pe-7s-users',
                 'name'=>'Users',
-                'child' => []
+                'child' => [
+
+                ]
             ],[
-                'url'=>'/admin-panel/contact-us',
+                'url'=>'contact-us',
                 'icon'=>'pe-7s-call',
                 'name'=>'Contact Us',
-                'child' => [],
+                'child' => [
+
+                ],
+            ],[
+                'url'=>'banner',
+                'icon'=>'lnr-chart-bars',
+                'name'=>'Banner',
+                'child' => [
+
+                ],
             ]
         ],
 
