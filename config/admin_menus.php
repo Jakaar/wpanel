@@ -8,7 +8,9 @@ return [
                 'icon'=>'pe-7s-users',
                 'name'=>'Users',
                 'child' => [
-
+                    'url'=>'users',
+                    'icon'=>'pe-7s-users',
+                    'name'=>'Users',
                 ]
             ],[
                 'url'=>'contact-us',
