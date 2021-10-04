@@ -11,12 +11,19 @@ import Axios from "axios"
 $('.contactSubmit').on('click', ()=>{
     const data = {
         title: $('#title').val(),
+        email: $('#email').val(),
+        phone:$('#phone').val(),
         short_content: $('#short_content').val(),
+        address:$('#address').val(),
+        facebook:$('#facebook').val(),
+        youtube:$('#youtube').val(),
+        twitter:$('#twitter').val(),
+        linkedin:$("#linkedin").val()
     }
     Axios.post('contact_us', data).then((resp)=>{
         console.log(resp);
     }).catch((err)=>{
-        alert('errer')
+        alert('error')
     })
 })
 // contact us submit END
