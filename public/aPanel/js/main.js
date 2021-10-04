@@ -75089,38 +75089,38 @@ __webpack_require__.r(__webpack_exports__);
 //     })
 // })
 // Form disabler Start
-
-$('.disabler').on('click', function () {
-  if ($('#ContactUsForm fieldset').attr('disabled') === 'disabled') {
-    $('#ContactUsForm fieldset').removeAttr('disabled');
-    $('#btns').append('<button type="button" class="mt-2 btn btn-success contactSubmit contactSave">Save</button>');
-  } else {
-    $('#ContactUsForm fieldset').attr('disabled', 'disabled');
-    $('.contactSubmit').remove();
-  }
-}); // Form disabler End
+//     $('.disabler').on('click', ()=>{
+//         if ($('#ContactUsForm fieldset').attr('disabled') === 'disabled'){
+//             $('#ContactUsForm fieldset').removeAttr('disabled')
+//             $('#btns').append('<button type="button" class="mt-2 btn btn-success contactSubmit contactSave">Save</button>')
+//         }else {
+//             $('#ContactUsForm fieldset').attr('disabled','disabled')
+//             $('.contactSubmit').remove()
+//         }
+//     })
+// Form disabler End
 // contact us submit START
-
-$(document).on('click', function () {
-  $('.contactSubmit').on('click', function () {
-    var data = {
-      title: $('#title').val(),
-      email: $('#email').val(),
-      phone: $('#phone').val(),
-      short_content: $('#short_content').val(),
-      address: $('#address').val(),
-      facebook: $('#facebook').val(),
-      youtube: $('#youtube').val(),
-      twitter: $('#twitter').val(),
-      linkedin: $("#linkedin").val()
-    };
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('contact_us', data).then(function (resp) {
-      console.log(resp);
-    })["catch"](function (err) {
-      alert('error');
-    });
-  });
-}); // contact us submit END
+// $(document).on('click',()=>{
+//     $('.contactSubmit').on('click', () => {
+//         const data = {
+//             title: $('#title').val(),
+//             email: $('#email').val(),
+//             phone:$('#phone').val(),
+//             short_content: $('#short_content').val(),
+//             address:$('#address').val(),
+//             facebook:$('#facebook').val(),
+//             youtube:$('#youtube').val(),
+//             twitter:$('#twitter').val(),
+//             linkedin:$("#linkedin").val()
+//         }
+//         Axios.post('contact_us', data).then((resp)=>{
+//             console.log(resp);
+//         }).catch((err)=>{
+//             alert('error')
+//         })
+//     })
+// });
+// contact us submit END
 
 /***/ }),
 
