@@ -23,8 +23,8 @@
                                 <div class="app-logo"></div>
                                 <h4>
                                     <div>{{__('Welcome')}}</div>
-                                    <span>It only takes a
-                                        <span class="text-success">few seconds</span> to create your account</span>
+                                    <span>{{__('It only takes a')}}
+                                        <span class="text-success">{{__('few seconds')}}</span>{{__('to create your account')}}</span>
                                 </h4>
                                 <div>
                                     <form class="" method="POST" action="{{ route('register') }}" autocomplete="off">
@@ -33,10 +33,10 @@
                                             <div class="col-md-6">
                                                 <div class="position-relative mb-3">
                                                     <label for="email" class="form-label">
-                                                        <span class="text-danger">*</span> Email
+                                                        <span class="text-danger">*</span> {{__('Email')}}
                                                     </label>
                                                     <input name="email" id="email" value="{{ old('email') }}" 
-                                                        placeholder="Email here..." type="email" class="form-control">
+                                                        placeholder="{{__('Email here')}}" type="email" class="form-control">
                                                 </div>
                                                 @error('email')
                                                     <div class="alert alert-danger fade show" role="alert">
@@ -46,9 +46,9 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="position-relative mb-3">
-                                                    <label for="name" class="form-label">Name</label>
+                                                    <label for="name" class="form-label">{{__('Name')}}</label>
                                                     <input name="text" id="name" name="name" value="{{ old('name') }}" 
-                                                        placeholder="Name here..." type="text" class="form-control">
+                                                        placeholder="{{__('Name here')}}" type="text" class="form-control">
                                                 </div>
                                                 @error('name')
                                                     <div class="alert alert-danger fade show" role="alert">
@@ -60,10 +60,10 @@
                                             <div class="col-md-6">
                                                 <div class="position-relative mb-3">
                                                     <label for="password" class="form-label">
-                                                        <span class="text-danger">*</span> Password
+                                                        <span class="text-danger">*</span> {{__('Password')}}
                                                     </label>
                                                     <input name="password" id="password"
-                                                        placeholder="Password here..." type="password" class="form-control">
+                                                        placeholder="{{__('Password here')}}" type="password" class="form-control">
                                                 </div>
                                                 @error('name')
                                                     <div class="alert alert-danger fade show" role="alert">
@@ -75,25 +75,25 @@
                                             <div class="col-md-6">
                                                 <div class="position-relative mb-3">
                                                     <label for="password-confirm" class="form-label">
-                                                        <span class="text-danger">*</span> Repeat Password
+                                                        <span class="text-danger">*</span> {{__('Repeat Password')}}
                                                     </label>
                                                     <input name="password_confirmation" id="password-confirm"
-                                                        placeholder="Repeat Password here..." type="password" class="form-control">
+                                                        placeholder="{{__('Repeat Password here')}}" type="password" class="form-control">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="mt-3 position-relative form-check">
                                             <input name="check" id="exampleCheck" type="checkbox" class="form-check-input">
-                                            <label for="exampleCheck" class="form-label form-check-label">Accept our
-                                                <a href="javascript:void(0);">Terms and Conditions</a>.
+                                            <label for="exampleCheck" class="form-label form-check-label">{{__('Terms and Conditions')}}
+                                                <a href="">{{__('Accept our')}}</a>.
                                             </label>
                                         </div>
                                         <div class="mt-4 d-flex align-items-center">
-                                            <h5 class="mb-0">Already have an account?
-                                                <a href="javascript:void(0);" class="text-primary">Sign in</a>
+                                            <h5 class="mb-0">{{__('Already have an account?')}}
+                                                <a href="javascript:void(0);" class="text-primary">{{__('Sign in')}}</a>
                                             </h5>
                                             <div class="ms-auto">
-                                                <button class="btn-wide btn-pill btn-shadow btn-hover-shine btn btn-primary btn-lg">Create Account</button>
+                                                <button class="btn-wide btn-pill btn-shadow btn-hover-shine btn btn-primary btn-lg">{{__('Create Account')}}</button>
                                             </div>
                                         </div>
                                     </form>
