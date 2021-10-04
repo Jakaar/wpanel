@@ -1,7 +1,10 @@
-// import Axios from "axios"
+import Axios from "axios"
 
 // $(document).ready(function(){
 //     Axios.post('/lang/kr').then((resp)=> {
 //         console.log(resp);
 //     })
 // })
+
+
+// user table
