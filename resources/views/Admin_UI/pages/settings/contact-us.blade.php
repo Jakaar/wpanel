@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="mt-2 btn btn-primary contactSubmit">{{__('Submit 연락')}}</button>
+                        <button class="mt-2 btn btn-primary contactSubmit">{{__('Submit')}}</button>
                     </form>
                 </div>
             </div>
