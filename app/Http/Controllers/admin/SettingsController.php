@@ -17,7 +17,7 @@ class SettingsController extends Controller
     {
         $data['users'] = DB::table('users')->get();
 //        dd($data);
-        return view('admin::settings.users');
+        return view('admin::settings.users', compact('data'));
     }
 
     /**
